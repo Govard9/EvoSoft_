@@ -10,7 +10,7 @@ options.add_argument("--disable-blink-features")
 options.add_argument("--disable-blink-features=AutomationControlled")
 
 driver = webdriver.Chrome(
-    executable_path="/Users/Govard/Desktop/Jobs/EvoSoft/chromedriver.exe",
+    executable_path="chromedriver.exe",
     options=options
 )
 
